@@ -65,7 +65,7 @@ public class WaveGenerator : MonoBehaviour
     void FindSpawnPoint()
     {
 
-        foreach (GameObject Spawn in GameObject.FindGameObjectsWithTag("Spawn"))
+        foreach (GameObject Spawn in GameObject.FindGameObjectsWithTag("SpawnEnemy"))
         {
             SpawnPoints.Add(Spawn.gameObject.transform);
 
